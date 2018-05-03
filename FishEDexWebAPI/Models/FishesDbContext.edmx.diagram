@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3aaa528bab49471c913e81f820489f24" Name="Diagram1">
+        <EntityTypeShape EntityType="FishesDbModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.AspNetRole" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.AspNetUser" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.Category" Width="1.5" PointX="1.5" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.Comment" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.Fish" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.Species" Width="1.5" PointX="3.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FishesDbModel.Tag" Width="1.5" PointX="6" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="FishesDbModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FishesDbModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FishesDbModel.FK_dbo_Species_dbo_Categories_CategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FishesDbModel.FK_dbo_Comments_dbo_Fishes_FishId" ManuallyRouted="false" />
+        <AssociationConnector Association="FishesDbModel.FK_dbo_Tags_dbo_Fishes_FishId" ManuallyRouted="false" />
+        <AssociationConnector Association="FishesDbModel.FK_dbo_Tags_dbo_Species_SpeciesId" ManuallyRouted="false" />
+        <AssociationConnector Association="FishesDbModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
